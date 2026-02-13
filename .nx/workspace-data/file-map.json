@@ -1,0 +1,340 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.4.5",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "api": [
+        {
+          "file": ".eslintignore",
+          "hash": "13404745306227114823"
+        },
+        {
+          "file": ".eslintrc.json",
+          "hash": "16901897318773055308"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "482260170198261808"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "2687824826588932174"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "6820402234827505055"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "13391140343975966684"
+        },
+        {
+          "file": "Dockerfile",
+          "hash": "9007304419472505530"
+        },
+        {
+          "file": "README.md",
+          "hash": "7202991028097114903"
+        },
+        {
+          "file": "jest.config.ts",
+          "hash": "2023118395648768778"
+        },
+        {
+          "file": "jest.preset.js",
+          "hash": "7473220183190921152",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "nx.json",
+          "hash": "5600228054616306725"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "17878967256283519273"
+        },
+        {
+          "file": "package.json",
+          "hash": "6017451606245795703"
+        },
+        {
+          "file": "project-logo.png",
+          "hash": "12414049080988332627"
+        },
+        {
+          "file": "project.json",
+          "hash": "4249248830969799223"
+        },
+        {
+          "file": "src/app/models/http-exception.model.ts",
+          "hash": "11118567117136834945"
+        },
+        {
+          "file": "src/app/routes/article/article.controller.ts",
+          "hash": "28612858392149950",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "src/app/routes/article/article.mapper.ts",
+          "hash": "5762573674578637604"
+        },
+        {
+          "file": "src/app/routes/article/article.model.ts",
+          "hash": "578571204670992870"
+        },
+        {
+          "file": "src/app/routes/article/article.service.ts",
+          "hash": "874047310522804986",
+          "deps": [
+            "npm:slugify"
+          ]
+        },
+        {
+          "file": "src/app/routes/article/author.mapper.ts",
+          "hash": "7831107430796588920"
+        },
+        {
+          "file": "src/app/routes/article/comment.model.ts",
+          "hash": "15541870917017736547"
+        },
+        {
+          "file": "src/app/routes/auth/auth.controller.ts",
+          "hash": "4083896726352869246",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "src/app/routes/auth/auth.service.ts",
+          "hash": "12383772177323555146",
+          "deps": [
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "src/app/routes/auth/auth.ts",
+          "hash": "9547974164574688195",
+          "deps": [
+            "npm:express-jwt",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "src/app/routes/auth/register-input.model.ts",
+          "hash": "38890617285716670"
+        },
+        {
+          "file": "src/app/routes/auth/registered-user.model.ts",
+          "hash": "17234304908645068366"
+        },
+        {
+          "file": "src/app/routes/auth/token.utils.ts",
+          "hash": "1345957085101567146",
+          "deps": [
+            "npm:jsonwebtoken"
+          ]
+        },
+        {
+          "file": "src/app/routes/auth/user-request.d.ts",
+          "hash": "8361650079226281056"
+        },
+        {
+          "file": "src/app/routes/auth/user.model.ts",
+          "hash": "16498157568461056873"
+        },
+        {
+          "file": "src/app/routes/profile/profile.controller.ts",
+          "hash": "5948935325535734952",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "src/app/routes/profile/profile.model.ts",
+          "hash": "10291357492036953525"
+        },
+        {
+          "file": "src/app/routes/profile/profile.service.ts",
+          "hash": "2906092364714772846"
+        },
+        {
+          "file": "src/app/routes/profile/profile.utils.ts",
+          "hash": "12336430932893879311"
+        },
+        {
+          "file": "src/app/routes/routes.ts",
+          "hash": "16810681332548121651",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "src/app/routes/tag/tag.controller.ts",
+          "hash": "17305269309262308022",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "src/app/routes/tag/tag.model.ts",
+          "hash": "7067413164228698434"
+        },
+        {
+          "file": "src/app/routes/tag/tag.service.ts",
+          "hash": "2163275705217166729"
+        },
+        {
+          "file": "src/assets/images/demo-avatar.png",
+          "hash": "10635547064654873089"
+        },
+        {
+          "file": "src/assets/images/smiley-cyrus.jpeg",
+          "hash": "1144521799396656283"
+        },
+        {
+          "file": "src/main.ts",
+          "hash": "6743140376432638619",
+          "deps": [
+            "npm:express",
+            "npm:cors",
+            "npm:body-parser"
+          ]
+        },
+        {
+          "file": "src/prisma/migrations/20210924225358_initial/migration.sql",
+          "hash": "10714672251683580274"
+        },
+        {
+          "file": "src/prisma/migrations/20211001143221_implicit_tags/migration.sql",
+          "hash": "16682500619564529209"
+        },
+        {
+          "file": "src/prisma/migrations/20211105153605_api_url/migration.sql",
+          "hash": "15837459520492022337"
+        },
+        {
+          "file": "src/prisma/migrations/20211221184529_deprecated_preview/migration.sql",
+          "hash": "9415338258527948437"
+        },
+        {
+          "file": "src/prisma/migrations/migration_lock.toml",
+          "hash": "5278839983338653787"
+        },
+        {
+          "file": "src/prisma/prisma-client.ts",
+          "hash": "2616993957953687027",
+          "deps": [
+            "npm:@prisma/client"
+          ]
+        },
+        {
+          "file": "src/prisma/schema.prisma",
+          "hash": "7905957508031160459"
+        },
+        {
+          "file": "src/prisma/seed.ts",
+          "hash": "7226973811739970328",
+          "deps": [
+            "npm:@ngneat/falso",
+            "npm:@prisma/client"
+          ]
+        },
+        {
+          "file": "src/tests/prisma-mock.ts",
+          "hash": "4994774544302813326",
+          "deps": [
+            "npm:jest-mock-extended",
+            "npm:@prisma/client"
+          ]
+        },
+        {
+          "file": "src/tests/services/article.service.test.ts",
+          "hash": "5955496094057501345"
+        },
+        {
+          "file": "src/tests/services/auth.service.test.ts",
+          "hash": "11278536666859673593",
+          "deps": [
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "src/tests/services/profile.service.test.ts",
+          "hash": "10925425524413667165"
+        },
+        {
+          "file": "src/tests/services/tag.service.test.ts",
+          "hash": "9483847779981186927"
+        },
+        {
+          "file": "src/tests/utils/profile.utils.test.ts",
+          "hash": "14619201955601212282"
+        },
+        {
+          "file": "tsconfig.app.json",
+          "hash": "3424608520383813861"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "8721949915093677919"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "3170436939515323801"
+        }
+      ],
+      "e2e": [
+        {
+          "file": "e2e/.eslintrc.json",
+          "hash": "2666771139683478850"
+        },
+        {
+          "file": "e2e/jest.config.ts",
+          "hash": "1456555062157936470"
+        },
+        {
+          "file": "e2e/project.json",
+          "hash": "172393831053734807"
+        },
+        {
+          "file": "e2e/src/server/server.spec.ts",
+          "hash": "3026045886657059088",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "e2e/src/support/global-setup.ts",
+          "hash": "18221119270488052961"
+        },
+        {
+          "file": "e2e/src/support/global-teardown.ts",
+          "hash": "17927034305001160425"
+        },
+        {
+          "file": "e2e/src/support/test-setup.ts",
+          "hash": "4165311015569872896",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "e2e/tsconfig.json",
+          "hash": "3552952790334018146"
+        },
+        {
+          "file": "e2e/tsconfig.spec.json",
+          "hash": "9794114284475474533"
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "6802659965807039728"
+}

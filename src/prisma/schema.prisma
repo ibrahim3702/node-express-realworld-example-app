@@ -4,8 +4,10 @@ datasource db {
 }
 
 generator client {
-  provider        = "prisma-client-js"
-  previewFeatures = []
+  provider      = "prisma-client-js"
+  // "native" keeps it working on Windows
+  // "debian-openssl-3.0.x" makes it work in the new Docker container
+  binaryTargets = ["native", "debian-openssl-3.0.x"]
 }
 
 model Article {
